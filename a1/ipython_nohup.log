@@ -1,0 +1,103 @@
+nohup: 忽略输入
+[TerminalIPythonApp] WARNING | Subcommand `ipython notebook` is deprecated and will be removed in future versions.
+[TerminalIPythonApp] WARNING | You likely want to use `jupyter notebook` in the future
+[W 01:48:08.043 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 01:48:08.050 NotebookApp] 启动notebooks 在本地路径: /remote-home/zyfei/project/cs224n/a1
+[I 01:48:08.050 NotebookApp] 本程序运行在: http://6eac6c5a4e7e:8888/
+[I 01:48:08.050 NotebookApp] 使用control-c停止此服务器并关闭所有内核(两次跳过确认).
+[I 01:48:18.639 NotebookApp] 302 GET / (127.0.0.1) 1.07ms
+[I 01:49:44.340 NotebookApp] 302 GET /notebooks/imgs/inner_product.png (127.0.0.1) 3.72ms
+[I 01:49:44.342 NotebookApp] 302 GET /notebooks/imgs/svd.png (127.0.0.1) 4.61ms
+[I 01:49:44.346 NotebookApp] 302 GET /notebooks/imgs/test_plot.png (127.0.0.1) 3.44ms
+[I 01:49:44.386 NotebookApp] Kernel started: 9ec0abab-abb8-40b8-9811-9fd1e3397ebe
+[I 02:47:20.356 NotebookApp] Starting buffering for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:7e25124d558f4b4286f2446a3e7e3f6d
+[I 02:47:21.992 NotebookApp] Restoring connection for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:7e25124d558f4b4286f2446a3e7e3f6d
+[W 02:48:51.994 NotebookApp] WebSocket ping timeout after 90002 ms.
+[I 02:48:56.997 NotebookApp] Starting buffering for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:7e25124d558f4b4286f2446a3e7e3f6d
+[I 02:58:27.353 NotebookApp] Restoring connection for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:7e25124d558f4b4286f2446a3e7e3f6d
+[W 02:59:57.355 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 03:00:02.359 NotebookApp] Starting buffering for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:7e25124d558f4b4286f2446a3e7e3f6d
+[I 03:11:50.594 NotebookApp] Restoring connection for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:7e25124d558f4b4286f2446a3e7e3f6d
+[I 04:06:25.426 NotebookApp] Starting buffering for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:7e25124d558f4b4286f2446a3e7e3f6d
+[I 04:06:27.051 NotebookApp] Restoring connection for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:7e25124d558f4b4286f2446a3e7e3f6d
+[W 04:07:57.052 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 04:08:02.057 NotebookApp] Starting buffering for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:7e25124d558f4b4286f2446a3e7e3f6d
+[I 04:56:12.435 NotebookApp] Restoring connection for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:7e25124d558f4b4286f2446a3e7e3f6d
+[I 04:59:39.604 NotebookApp] Starting buffering for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:7e25124d558f4b4286f2446a3e7e3f6d
+[I 04:59:46.022 NotebookApp] Restoring connection for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:7e25124d558f4b4286f2446a3e7e3f6d
+[I 05:02:29.645 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[W 05:04:16.113 NotebookApp] 404 GET /gen204?invalidResponse=q=https%3A%2F%2Ftranslate.googleapis.com%2Ftranslate_a%2Fsingle%3Fclient%3Dgtx%26s,ql=327,r=,rl=0 (127.0.0.1) 53.81ms referer=http://222.73.22.191:47704/notebooks/exploring_word_vectors.ipynb
+[I 05:58:29.767 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:00:32.050 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:02:29.610 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:02:56.521 NotebookApp] Starting buffering for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:7e25124d558f4b4286f2446a3e7e3f6d
+[I 06:02:57.242 NotebookApp] Kernel restarted: 9ec0abab-abb8-40b8-9811-9fd1e3397ebe
+[I 06:02:58.415 NotebookApp] Restoring connection for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:7e25124d558f4b4286f2446a3e7e3f6d
+[I 06:02:58.415 NotebookApp] Replaying 3 buffered messages
+[I 06:03:24.413 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:03:24.689 NotebookApp] Starting buffering for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:7e25124d558f4b4286f2446a3e7e3f6d
+[I 06:03:27.547 NotebookApp] 302 GET /notebooks/imgs/svd.png (127.0.0.1) 3.29ms
+[I 06:03:27.549 NotebookApp] 302 GET /notebooks/imgs/test_plot.png (127.0.0.1) 4.05ms
+[I 06:03:27.602 NotebookApp] 302 GET /notebooks/imgs/inner_product.png (127.0.0.1) 1.82ms
+[I 06:05:06.287 NotebookApp] Starting buffering for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:b4cea3d025d14f12ac3591c82aefc751
+[I 06:05:11.327 NotebookApp] Kernel restarted: 9ec0abab-abb8-40b8-9811-9fd1e3397ebe
+[I 06:05:12.723 NotebookApp] Restoring connection for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:b4cea3d025d14f12ac3591c82aefc751
+[I 06:05:12.724 NotebookApp] Replaying 3 buffered messages
+[I 06:05:28.610 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:07:27.698 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:11:27.699 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:13:27.697 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:15:28.045 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:17:27.721 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:19:27.682 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:21:27.724 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:23:35.166 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:27:27.735 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:29:27.819 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:31:26.051 NotebookApp] Starting buffering for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:b4cea3d025d14f12ac3591c82aefc751
+[I 06:31:27.160 NotebookApp] Restoring connection for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:b4cea3d025d14f12ac3591c82aefc751
+[I 06:33:28.018 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:35:27.829 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:37:27.783 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:39:27.785 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:41:33.053 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:43:42.330 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 06:45:33.492 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 07:25:28.099 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 07:27:58.012 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 07:33:10.247 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 07:38:19.537 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[W 07:41:15.862 NotebookApp] 404 GET /gen204?invalidResponse=q=https%3A%2F%2Ftranslate.googleapis.com%2Ftranslate_a%2Fsingle%3Fclient%3Dgtx%26s,ql=145,r=,rl=0 (127.0.0.1) 5.32ms referer=http://222.73.22.191:47704/notebooks/exploring_word_vectors.ipynb
+[I 07:41:26.907 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 07:43:28.456 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 07:46:20.051 NotebookApp] Starting buffering for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:b4cea3d025d14f12ac3591c82aefc751
+[I 07:46:21.416 NotebookApp] Restoring connection for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:b4cea3d025d14f12ac3591c82aefc751
+[I 07:46:21.416 NotebookApp] Replaying 6 buffered messages
+[W 07:47:51.417 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 07:47:51.649 NotebookApp] zmq message arrived on closed channel
+[W 07:47:51.649 NotebookApp] zmq message arrived on closed channel
+[W 07:47:52.438 NotebookApp] zmq message arrived on closed channel
+[W 07:47:52.439 NotebookApp] zmq message arrived on closed channel
+[W 07:47:53.354 NotebookApp] zmq message arrived on closed channel
+[W 07:47:53.354 NotebookApp] zmq message arrived on closed channel
+[W 07:47:53.956 NotebookApp] zmq message arrived on closed channel
+[W 07:47:53.956 NotebookApp] zmq message arrived on closed channel
+[W 07:47:54.617 NotebookApp] zmq message arrived on closed channel
+[W 07:47:54.617 NotebookApp] zmq message arrived on closed channel
+[W 07:47:54.619 NotebookApp] zmq message arrived on closed channel
+[W 07:47:55.182 NotebookApp] zmq message arrived on closed channel
+[W 07:47:55.183 NotebookApp] zmq message arrived on closed channel
+[W 07:47:55.835 NotebookApp] zmq message arrived on closed channel
+[W 07:47:55.837 NotebookApp] zmq message arrived on closed channel
+[I 07:47:56.419 NotebookApp] Starting buffering for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:b4cea3d025d14f12ac3591c82aefc751
+[I 07:48:30.027 NotebookApp] Restoring connection for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:b4cea3d025d14f12ac3591c82aefc751
+[I 07:48:30.027 NotebookApp] Replaying 153 buffered messages
+[I 07:49:58.102 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 07:55:07.819 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 08:00:18.142 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 08:05:28.261 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 08:10:38.070 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 08:15:48.191 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 08:23:10.389 NotebookApp] Saving file at /exploring_word_vectors.ipynb
+[I 08:32:21.901 NotebookApp] Starting buffering for 9ec0abab-abb8-40b8-9811-9fd1e3397ebe:b4cea3d025d14f12ac3591c82aefc751
+[I 08:32:24.673 NotebookApp] Saving file at /exploring_word_vectors.ipynb
