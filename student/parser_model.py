@@ -71,8 +71,13 @@ class ParserModel(nn.Module):
         ###     Initialization: https://pytorch.org/docs/stable/nn.init.html
         ###     Dropout: https://pytorch.org/docs/stable/nn.html#dropout-layers
 
+        self.embed_to_hidden_weight = nn.Parameter(nn.init.xavier_uniform_(torch.empty(self.embed_size*self.n_features,self.hidden_size)))
+        self.embed_to_hidden_bias = nn.Parameter(nn.init.uniform_(torch.empty(1,self.hidden_size)))
 
+        self.dropout = nn.Dropout(self.dropout_prob)
 
+        self.hidden_to_logits_weight = nn.Parameter(nn.init.xavier_uniform_(torch.empty(self.hidden_size,self.n_classes)))
+        self.hidden_to_logits_bias = nn.Parameter(nn.init.uniform_(torch.empty(1,self.n_classes)))
 
         ### END YOUR CODE
 
@@ -103,8 +108,11 @@ class ParserModel(nn.Module):
         ###     Index select: https://pytorch.org/docs/stable/torch.html#torch.index_select
         ###     Gather: https://pytorch.org/docs/stable/torch.html#torch.gather
         ###     View: https://pytorch.org/docs/stable/tensors.html#torch.Tensor.view
-
-
+        # x = torch.tensor([torch.index_select(self.embeddings, 0, w[i]).view(-1).detach().numpy() for i in range(len(w))])
+        x = self.embeddings[w].view(-1,self.n_features*self.embed_size) # -1 is infered from other paramater
+                                                   # w is index union in in embedding, and w's shape is batch_size*n_feature
+                                                   # for every i in w there have 1 idx in w and use embedding to get a embeded_size vector
+                                                   # embedding[w] is embeded_size*n_feature * batch_size use view to get batch_szie*(embed_size*n_feature)
 
         ### END YOUR CODE
         return x
@@ -141,6 +149,10 @@ class ParserModel(nn.Module):
         ###     Matrix product: https://pytorch.org/docs/stable/torch.html#torch.matmul
         ###     ReLU: https://pytorch.org/docs/stable/nn.html?highlight=relu#torch.nn.functional.relu
 
+        embedding_x = self.embedding_lookup(w)
+        h = nn.functional.relu(torch.matmul(embedding_x,self.embed_to_hidden_weight)+self.embed_to_hidden_bias)
+        drop_h = self.dropout(h)
+        logits = torch.matmul(drop_h, self.hidden_to_logits_weight) + self.hidden_to_logits_bias
 
         ### END YOUR CODE
         return logits
